@@ -1,11 +1,12 @@
-node_modules
 .vscode
 .env
-# Ignore built ts files
-dist/**/*
-
-venv/
+.venv
 __pycache__/
 .idea/
-
-gha-creds-*.json
+*.pyc
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
